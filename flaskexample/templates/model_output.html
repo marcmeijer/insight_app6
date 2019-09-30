@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Pharmitigate</title>
+  <link href="../static/css/bootstrap.min.css"      rel="stylesheet">
+  <link href="../static/css/bootstrap-template.css" rel="stylesheet">
+</head>
+<body style="margin: 50px 20% 50px 20%;">
+
+  <img style="width: 300px;" src="../static/images/logo_pharmitigate.png">
+
+  <form style="padding: 10px 0 10px 0; line-height: 26px;" action="/" method="GET">
+    <input type="text" id="drug_check" name='drug_check' placeholder="enter drug">
+    <button class="btn-primary" type="submit">Search</button>
+  </form>
+
+  <table class="table table-hover">
+    <tr><th>Drug</th><th>Drug Stability Index</th><th>Drug Brand Name</th></tr>
+    {% for birth in births %}
+    <tr><td>{{ birth['index'] }}</td><td>{{ birth['attendant']}}</td><td> {{ birth['drug_check'] }}</td></tr>
+    {% endfor %}
+  </table>
+
+  <script src="static/js/bootstrap.min.js"></script>
+
+</body>
+</html>

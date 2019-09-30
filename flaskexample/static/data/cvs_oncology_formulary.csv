@@ -1,0 +1,70 @@
+drug,likelihood_short,brand_name
+leuprolide acetate,2,
+Labiraterone 250 mg,1,ZYTIGA
+bicalutamide,2,
+flutamide,3,
+nilutamide,4,NILANDRON
+fulvestrant,5,FASLODEX
+tamoxifen,6,
+toremifene,7,FARESTON
+anastrozole,8,ARIMIDEX
+exemestane,9,ARIMIDEX
+letrozole,3,ARIMIDEX
+megestrol acetate,4,
+busulfan,5,MYLERAN
+chlorambucil,6,LEUKERAN
+cyclophosphamide ,7,
+capsestramustine,8,EMCYT
+lomustine,9,GLEOSTINE
+melphalan,8,ALKERAN
+temozolomide,7,TEMODAR
+capecitabine,6,XELODA
+mercaptopurine,5,
+thioguanine,7,TABLOID
+lenalidomide,4,REVLIMID
+acalabrutinib,3,CALQUENCE
+afatinib,2,GILOTRIF
+alectinib,1,ALECENSA
+axitinib,2,INLYTA
+cabozantinib,3,CABOMETYX
+cabozantinib,4,COMETRIQ
+ceritinib,5,ZYKADIA
+crizotinib,6,XALKORI
+dabrafenib,7,TAFINLAR
+erlotinib,8,TARCEVA
+everolimus,9,AFINITOR
+ibrutinibI,8,MBRUVICA
+idelalisib,7,ZYDELIG
+lapatinib,6,TYKERB
+larotrectinib,5,VITRAKVI
+lenvatinib,4,LENVIMA
+lorlatinib,3,LORBRENA
+midostaurin,2,RYDAPT
+palbociclib,1,IBRANCE
+pazopanib,2,VOTRIENT
+regorafenib,3,STIVARGA
+ribociclib,4,KISQALI
+ribociclib+ letrozole,5,KISQALI FEMARA CO-PACK
+ruxolitinib,6,JAKAFI
+sorafenib,7,NEXAVAR
+sunitinib,8,SUTENT
+trametinib,9,MEKINIST
+vandetanib,8,CAPRELSA
+vemurafenib,7,ZELBORAF
+imatinib mesylate,6,GLEEVEC
+topotecan caps,5,HYCAMTIN
+bexarotene caps,4,TARGRETIN
+enasidenib,3,IDHIFA
+etoposide,2,
+capshydroxyurea,4,HYDREA
+mitotane,1,LYSODREN
+niraparib,2,ZEJULA
+olaparib,3,LYNPARZA
+panobinostat,4,FARYDAK
+procarbazine,5,MATULANE
+sonidegib,6,ODOMZO
+tretinoin caps,7,
+uridine triacetate,8,VISTOGARD
+venetoclax,9,VENCLEXTA
+vismodegib,8,ERIVEDGE
+vorinostat,5,ZOLINZA
