@@ -27,12 +27,12 @@ def homepage():
    drug_db = drug_db[drug_db['drug'] == rx]
 
    # we really only need the likelihood and drug check for this one
-   drug_db = drug_db[['drug','likelihood_short','brand_name']]
+   drug_db = drug_db[['drug','likelihood_short','brand_name','alert']]
 
    # just select oncology  from the drug data base for the drug that the user inputs
    drugs = []
    for i in range(0, drug_db.shape[0]):
-      drugs.append(dict(index=drug_db.iloc[i]['drug'], attendant=drug_db.iloc[i]['likelihood_short'],
+      drugs.append(dict(index=drug_db.iloc[i]['drug'], attendant=drug_db.iloc[i]['alert'],
                         drug_check=drug_db.iloc[i]['brand_name']))
    the_result = ModelIt(rx, drugs)
    return render_template("model_output.html", births=drugs, the_result=the_result)

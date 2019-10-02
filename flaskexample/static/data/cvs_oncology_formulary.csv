@@ -1,70 +1,70 @@
-drug,likelihood_short,brand_name
-leuprolide acetate,2,
-Labiraterone 250 mg,1,ZYTIGA
-bicalutamide,2,
-flutamide,3,
-nilutamide,4,NILANDRON
-fulvestrant,5,FASLODEX
-tamoxifen,6,
-toremifene,7,FARESTON
-anastrozole,8,ARIMIDEX
-exemestane,9,ARIMIDEX
-letrozole,3,ARIMIDEX
-megestrol acetate,4,
-busulfan,5,MYLERAN
-chlorambucil,6,LEUKERAN
-cyclophosphamide ,7,
-capsestramustine,8,EMCYT
-lomustine,9,GLEOSTINE
-melphalan,8,ALKERAN
-temozolomide,7,TEMODAR
-capecitabine,6,XELODA
-mercaptopurine,5,
-thioguanine,7,TABLOID
-lenalidomide,4,REVLIMID
-acalabrutinib,3,CALQUENCE
-afatinib,2,GILOTRIF
-alectinib,1,ALECENSA
-axitinib,2,INLYTA
-cabozantinib,3,CABOMETYX
-cabozantinib,4,COMETRIQ
-ceritinib,5,ZYKADIA
-crizotinib,6,XALKORI
-dabrafenib,7,TAFINLAR
-erlotinib,8,TARCEVA
-everolimus,9,AFINITOR
-ibrutinibI,8,MBRUVICA
-idelalisib,7,ZYDELIG
-lapatinib,6,TYKERB
-larotrectinib,5,VITRAKVI
-lenvatinib,4,LENVIMA
-lorlatinib,3,LORBRENA
-midostaurin,2,RYDAPT
-palbociclib,1,IBRANCE
-pazopanib,2,VOTRIENT
-regorafenib,3,STIVARGA
-ribociclib,4,KISQALI
-ribociclib+ letrozole,5,KISQALI FEMARA CO-PACK
-ruxolitinib,6,JAKAFI
-sorafenib,7,NEXAVAR
-sunitinib,8,SUTENT
-trametinib,9,MEKINIST
-vandetanib,8,CAPRELSA
-vemurafenib,7,ZELBORAF
-imatinib mesylate,6,GLEEVEC
-topotecan caps,5,HYCAMTIN
-bexarotene caps,4,TARGRETIN
-enasidenib,3,IDHIFA
-etoposide,2,
-capshydroxyurea,4,HYDREA
-mitotane,1,LYSODREN
-niraparib,2,ZEJULA
-olaparib,3,LYNPARZA
-panobinostat,4,FARYDAK
-procarbazine,5,MATULANE
-sonidegib,6,ODOMZO
-tretinoin caps,7,
-uridine triacetate,8,VISTOGARD
-venetoclax,9,VENCLEXTA
-vismodegib,8,ERIVEDGE
-vorinostat,5,ZOLINZA
+drug,likelihood_short,brand_name,alert
+leuprolide acetate,2,,LOW
+Labiraterone 250 mg,1,ZYTIGA,LOW
+bicalutamide,2,,LOW
+flutamide,3,,LOW
+nilutamide,4,NILANDRON,MEDIUM
+fulvestrant,5,FASLODEX,MEDIUM
+tamoxifen,6,,MEDIUM
+toremifene,7,FARESTON,MEDIUM
+anastrozole,8,ARIMIDEX,HIGH
+exemestane,9,ARIMIDEX,HIGH
+letrozole,3,ARIMIDEX,LOW
+megestrol acetate,4,,MEDIUM
+busulfan,5,MYLERAN,MEDIUM
+chlorambucil,6,LEUKERAN,MEDIUM
+cyclophosphamide ,7,,MEDIUM
+capsestramustine,8,EMCYT,HIGH
+lomustine,9,GLEOSTINE,HIGH
+melphalan,8,ALKERAN,HIGH
+temozolomide,7,TEMODAR,MEDIUM
+capecitabine,6,XELODA,MEDIUM
+mercaptopurine,5,,MEDIUM
+thioguanine,7,TABLOID,MEDIUM
+lenalidomide,4,REVLIMID,MEDIUM
+acalabrutinib,3,CALQUENCE,LOW
+afatinib,2,GILOTRIF,LOW
+alectinib,1,ALECENSA,LOW
+axitinib,2,INLYTA,LOW
+cabozantinib,3,CABOMETYX,LOW
+cabozantinib,4,COMETRIQ,MEDIUM
+ceritinib,5,ZYKADIA,MEDIUM
+crizotinib,6,XALKORI,MEDIUM
+dabrafenib,7,TAFINLAR,MEDIUM
+erlotinib,8,TARCEVA,HIGH
+everolimus,9,AFINITOR,HIGH
+ibrutinibI,8,MBRUVICA,HIGH
+idelalisib,7,ZYDELIG,MEDIUM
+lapatinib,6,TYKERB,MEDIUM
+larotrectinib,5,VITRAKVI,MEDIUM
+lenvatinib,4,LENVIMA,MEDIUM
+lorlatinib,3,LORBRENA,LOW
+midostaurin,2,RYDAPT,LOW
+palbociclib,1,IBRANCE,LOW
+pazopanib,2,VOTRIENT,LOW
+regorafenib,3,STIVARGA,LOW
+ribociclib,4,KISQALI,MEDIUM
+ribociclib+ letrozole,5,KISQALI FEMARA CO-PACK,MEDIUM
+ruxolitinib,6,JAKAFI,MEDIUM
+sorafenib,7,NEXAVAR,MEDIUM
+sunitinib,8,SUTENT,HIGH
+trametinib,9,MEKINIST,HIGH
+vandetanib,8,CAPRELSA,HIGH
+vemurafenib,7,ZELBORAF,MEDIUM
+imatinib mesylate,6,GLEEVEC,MEDIUM
+topotecan caps,5,HYCAMTIN,MEDIUM
+bexarotene caps,4,TARGRETIN,MEDIUM
+enasidenib,3,IDHIFA,LOW
+etoposide,2,,LOW
+capshydroxyurea,4,HYDREA,MEDIUM
+mitotane,1,LYSODREN,LOW
+niraparib,2,ZEJULA,LOW
+olaparib,3,LYNPARZA,LOW
+panobinostat,4,FARYDAK,MEDIUM
+procarbazine,5,MATULANE,MEDIUM
+sonidegib,6,ODOMZO,MEDIUM
+tretinoin caps,7,,MEDIUM
+uridine triacetate,8,VISTOGARD,HIGH
+venetoclax,9,VENCLEXTA,HIGH
+vismodegib,8,ERIVEDGE,HIGH
+vorinostat,5,ZOLINZA,MEDIUM
